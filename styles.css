@@ -1,0 +1,30 @@
+body {
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+}
+
+.site-header {  
+    background-color: #d20c79 ; 
+    height: 40px;
+    background-image: linear-gradient(90deg, #d20c79 0%, #fa64b9 33%, #480128 66%, #18010f 100%);
+
+}
+
+.main-banner {
+    width:auto;
+    height:auto;
+    background-image: url("pinkcode.webp");
+    background-size: cover;
+    text-align: center;
+    
+}
+.main-banner__title{
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px #110109;
+    text-align: center;
+    margin: auto;
+}
+
+.main-banner__picture {
+    object-fit: contain;
+    border-radius: 100px;
+}
