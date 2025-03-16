@@ -25,6 +25,79 @@ body {
 }
 
 .main-banner__picture {
-    object-fit: contain;
     border-radius: 100px;
+}
+
+.main-banner__des {
+    color: white;
+    text-shadow: 2px 2px 5px #110109;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.box__title-des {
+    color: white;
+    text-shadow: 2px 2px 5px #110109;
+    margin: 0;
+    padding: 10px;
+}
+
+.box__page {
+    text-align: center;
+    background-image: url("latopok.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box__title {
+    margin: 0;
+    color: white;
+    text-shadow: 2px 2px 5px #110109;
+    padding: 10px;
+}
+
+.box__cover {
+    background-image: url(pantera.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0 auto;
+    border: 5px solid #d20c79;
+    border-radius: 4px;
+
+}
+
+.box__cover--first-day:hover {
+    background-image: url(giphy.webp) ;
+}
+
+.box__cover--bug:hover {
+    background-image: url(200.webp);
+}
+
+.box__cover--semi:hover {
+    background-image: url(crying.webp);
+    background-size: cover;
+}
+
+.box__cover--pre:hover {
+    background-image: url(aaa.jpg);
+}
+
+.box__cover--git:hover {
+    background-image: url(head.webp);
+}
+
+.box__cover--btn:hover {
+    background-image: url(dede.webp);
+}
+
+.box__cover--giveup:hover {
+    background-image: url(fa.webp);
+    
+}
+
+.box__cover--tutor:hover {
+    background-image: url(mentor.png);
 }
